@@ -1,0 +1,467 @@
+/*
+Theme Name: NewsParfect
+Theme URI: https://themesbazar.com/newsparfect/
+Author: The ThemesBazar Team
+Author URI: https://themesbazar.com/
+Description: newsparfect brings your site to life with immersive featured images and subtle animations. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: newsparfect
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use
+
+/* Base CSS */
+
+
+@font-face {
+    font-family: 'SolaimanLipiNormal';
+    src: url('fonts/solaiman-lipi.eot');
+    src: url('fonts/solaiman-lipi.eot') format('embedded-opentype'),
+         url('fonts/solaiman-lipi.woff') format('woff'),
+         url('fonts/solaiman-lipi.ttf') format('truetype'),
+         url('fonts/solaiman-lipi.svg#SolaimanLipiNormal') format('svg');
+	
+	font-weight:normal;font-style:normal;
+}
+
+
+
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	background-color:#D5D4D0;
+	font-family: SolaimanLipiNormal;
+			
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+.full_website{
+    background-color:#fdfafa;
+}
+
+.date_social{
+    margin: 5px 0px;
+	color:#FFFFFF;
+	padding-top:10px;
+
+
+}
+.date{
+	padding-top:5px;
+}
+.social {
+    text-align: right;
+    font-size: 22px;
+    	
+}
+.datalist{
+	background-color:#fff;
+	padding:5px 10px 5px 10px;
+}
+.logo_banner{
+	padding:10px ;
+}
+.scrool_01{
+    background-color: #0E76BC;
+    padding: 5px;
+    color: aliceblue;
+    text-align:center;
+    margin-bottom: 5px;
+	margin-top:5px;
+
+}
+
+.scrool_02{
+    padding: 5px;
+    color:black;
+    margin-bottom: 5px;
+	margin-top:5px;
+}
+.heading_slider{
+	 font-size: 23px ;
+	padding-left:5px;
+    font-weight: normal;
+    line-height: 26px;
+	padding-top:10px;
+}
+.heading_slider a{
+    color: #060405;
+}
+
+.img-border{
+	background-color:#fff;
+	padding:5px 5px 5px 5px;	
+	border:1px solid #dfdfdd;
+	margin-bottom:15px;
+	
+}
+.img-border-02{
+	background-color:#fff;
+	padding:5px 5px 5px 5px;	
+	border:1px solid #dfdfdd;
+	margin-bottom:15px;
+
+}
+.leadnews{
+	background-color:#fff;
+	padding-top:5px;
+	padding-right:5px;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #dfdfdd;
+	margin-bottom:15px;
+}
+.leadnews img{
+	width:100%;
+	height:auto;
+	margin-bottom:15px;
+}
+.leadnews-title{
+	background-color:#fff;
+	padding-top:5px;
+	padding-right:5px;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #dfdfdd;
+	margin-bottom:15px;
+}
+.leadnews-title img{
+	width:100%;
+	height:auto;
+	margin-bottom:15px;
+}
+.add{	
+	margin-bottom:15px;
+}
+.add img{
+	width:100%;
+	height:auto;
+}
+
+.images_title{
+	padding:10px;
+	height:95px;
+}
+.images_title img{
+    float: left;
+    width: 45%;
+    margin-right:10px;
+	
+}
+.images_title-02{
+	padding:10px;
+	border-bottom:1px solid #dfdfdd;
+	
+}
+.images_title-02 img{
+    float: left;
+    width: 40%;
+    margin-right:10px;
+	
+}
+.heading_03 {
+
+    font-size: 18px;
+	line-height:21px;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:5px;
+}
+.heading_03 a{
+	color:#000B00;
+	margin-bottom:5px;	
+}
+.heading_03 a:hover{
+	color:#F30100;
+}
+.heading_04 {
+	margin: 0;
+    font-size: 21px;
+    font-weight: normal;
+    line-height: 23px;
+    display: block;
+    overflow: hidden;
+	padding-left:5px;
+	padding-right:5px;
+}
+.heading_04 a{
+	color:#000B00;
+	
+}
+.heading_04 a:hover{
+	color:#F30100;
+}
+.add-02 img{
+	width:100%;
+	height:auto;
+	margin-bottom:15px;
+}
+
+.catagory_title-01{
+	border-top:3px solid #009688;
+	padding-top:10px;
+	padding-left:5px;
+}
+.catagory_title-01 a{
+	color:#24A397;
+}
+.catagory_title-02{
+	border-top:3px solid #FF6D00;
+	padding-top:10px;
+	padding-left:5px;
+}
+.catagory_title-02 a{
+	color:#FF6D00;
+}
+.catagory_title-03{
+	border-top:3px solid #924400;
+	padding-top:10px;
+	padding-left:5px;
+}
+.catagory_title-03 a{
+	color:#924400;
+}
+.catagory_title-04{
+	border-top:3px solid #005BE9;
+	padding-top:10px;
+	padding-left:5px;
+}
+.catagory_title-04 a{
+	color:#005BE9;
+
+}
+.images_title-02{
+	padding:10px;
+	border-bottom:1px solid #dfdfdd;
+	
+}
+.images_title-02 img{
+    float: left;
+    width: 40%;
+	height:auto;
+    margin-right:10px;
+	
+}
+
+.tab-content{
+	overflow: scroll;
+	height: 300px;
+    overflow-x: hidden;
+	background-color:#fff;
+	border-top:1px solid #dfdfdd;
+}
+.tab-content-single{
+    overflow: scroll;
+    height: 380px;
+    overflow-x: hidden;
+	background-color:#fff;
+}
+.tab_border{
+	border-top:3px solid #224F7B;
+	margin:0;
+	padding:0;
+	padding-top:5px;
+	margin-bottom:10px;
+}
+.news_title{
+	
+	padding-top:15px;
+	padding-right:5px;
+	padding-left:5px;
+	border-bottom:1px solid #dfdfdd;
+}
+.news-title a{
+	padding-bottom:5px;
+}
+.news_title :hover{
+	background-color:#F4F4F2;
+}
+.footer{
+	background-color:#fff;
+	padding:10px;
+	border-top:5px solid #FF1D1D;
+	border-right:1px solid #D5D4D0;
+	border-left:1px solid #D5D4D0;
+	border-bottom:1px solid #D5D4D0;
+}
+.single-page{
+	background-color:#fff;
+	padding-top:5px;
+	padding-right:5px;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #dfdfdd;
+	margin-bottom:15px;
+}
+.single-page img{
+	width:100%;
+	height:auto;
+	padding-bottom:5px;
+}
+.single-page p{
+	padding:5px;
+}
+.heading_single{
+
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 100%;
+   padding:10px;
+}
+.heading_single a{
+	color:#000B00;
+		
+}
+.heading_single a:hover{
+	color:#F30100;
+}
+.photo-gallery img{
+	width:100%;
+	height:auto;
+}
+.video iframe{
+    width: 100%;
+  height:300px;   
+}
+
+.footer-02 {
+ 
+	color:#036383;
+	background: #FFFFFF;
+    color: #000000;
+    padding: 1%;   
+}
+.copyright{
+    font-size: 16px;
+}
+.design{
+    text-align: right;
+    font-size: 16px;
+}
+.design a{
+    color: forestgreen;
+}
+.design a:hover{
+    color:firebrick;
+}
+.archaive-page{
+	background-color:#fff;
+	width:100%;
+	height:270px;
+	margin-bottom:10px;
+	
+}
+.archaive-page img{
+	width:260px;
+	height:180px;
+	float:left;
+	padding-left:10px;
+	padding-right:10px;
+	
+}
+/* Single Page ========================= */
+
+.singlepage{
+   margin: 60px 0px;
+}
+
+.single_images{
+    
+}
+.single_title{
+    font-size: 25px;
+    line-height: 30px;
+    padding: 10px;
+
+}
+.single_images img{
+    width: 100%
+}
+.caption{
+    margin-top: -5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: black;
+    opacity: .4;
+    color: white;
+}
+.caption h4{
+    opacity: 10;
+}
+.single_details p{
+    text-align: justify;
+}
+.single_tab{
+	padding:10px;
+	border-bottom:1px solid #dfdfdd;
+	overflow: hidden;
+}
+.single_tab img{
+	 float: left;
+    width: 30%;
+    margin-right:10px;
+}
+
+
+/* Archive Page ========================= */
+
+.archive_details{
+    border-bottom: 2px solid #737070;
+    border-left: 5px solid #8C0303;
+    margin-bottom: 15px;
+    padding: 25px;
+}
+.archive_details img{
+    float: left;
+    width: 20% !important;
+    margin-right: 20px;
+}
+/* Goto Top============================ */
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
